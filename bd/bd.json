@@ -1,0 +1,53 @@
+{
+    "clients": [
+        {
+            "id": 1,
+            "nom": "John Doe",
+            "prenom": "John",
+            "adresse": "Thiaroye"
+        },
+        {
+            "id": 2,
+            "nom": "Jane Smith",
+            "prenom": "Jane",
+            "adresse": "Medina"
+        },
+        {
+            "id": 3,
+            "nom": "David Johnson",
+            "prenom": "David",
+            "adresse": "dakar"
+        },
+        {
+            "id": 4,
+            "nom": "Niang",
+            "prenom": "Fatimata Binta",
+            "adresse": "Castor",
+            "dettes": []
+        }
+    ],
+    "dettes": [],
+    "articles": [
+        {
+            "id": 1,
+            "reference": "A001",
+            "libelle": "Ordinateur portable",
+            "quantite_stock": 10,
+            "prix": 500000
+        },
+        {
+            "id": 2,
+            "reference": "A002",
+            "libelle": "Casque Bluetooth",
+            "quantite_stock": 15,
+            "prix": 25000
+        },
+        {
+            "id": 3,
+            "reference": "A003",
+            "libelle": "Clavier m\u00e9canique",
+            "quantite_stock": 20,
+            "prix": 45000
+        }
+    ]
+}
