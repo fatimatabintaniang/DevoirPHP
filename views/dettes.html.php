@@ -48,6 +48,7 @@
                     <?php foreach ($dettes as $dette): ?>
                         <tr class="hover:bg-gray-50 transition duration-150 ease-in-out">
                             <td class="px-6 py-4 border-b border-gray-200 text-sm text-gray-700"><?php echo htmlspecialchars($dette['client_nom']); ?></td>
+                         
                             <td class="px-6 py-4 border-b border-gray-200 text-sm text-gray-700"><?php echo htmlspecialchars($dette['montant']); ?></td>
                             <td class="px-6 py-4 border-b border-gray-200 text-sm text-gray-700"><?php echo htmlspecialchars($dette['date']); ?></td>
                             <td class="px-6 py-4 border-b border-gray-200 text-sm text-gray-700"><?php echo htmlspecialchars($dette['etat']); ?></td>
