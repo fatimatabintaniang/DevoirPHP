@@ -3,30 +3,64 @@
         {
             "id": 1,
             "nom": "John Doe",
-            "prenom": "John",
-            "adresse": "Thiaroye"
+            "telephone": "7788994455",
+            "adresse": "123 Main St",
+            "dettes": [
+                {
+                    "id": 1,
+                    "montant": 100000,
+                    "date": "2023-10-01",
+                    "etat": "Restant",
+                    "articles": [
+                        {
+                            "id": 1,
+                            "reference": "A001",
+                            "libelle": "Ordinateur portable",
+                            "quantite_commandee": 2,
+                            "prix_unitaire": 500000
+                        }
+                    ]
+                }
+            ]
         },
         {
             "id": 2,
-            "nom": "Jane Smith",
-            "prenom": "Jane",
-            "adresse": "Medina"
+            "nom": "Fatimata Binta Niang",
+            "telephone": "767298266",
+            "adresse": "Castor",
+            "dettes": [
+                {
+                    "id": 1,
+                    "montant": 5000,
+                    "date": "2025-03-14",
+                    "etat": "Restant",
+                    "articles": []
+                }
+            ]
         },
         {
             "id": 3,
-            "nom": "David Johnson",
-            "prenom": "David",
-            "adresse": "dakar"
+            "nom": "Fatimata Binta Niang",
+            "telephone": "76",
+            "adresse": "Castor",
+            "dettes": [
+                {
+                    "id": 1,
+                    "montant": 778,
+                    "date": "2025-03-02",
+                    "etat": "Restant",
+                    "articles": []
+                }
+            ]
         },
         {
             "id": 4,
-            "nom": "Niang",
-            "prenom": "Fatimata Binta",
+            "nom": "Diop",
+            "telephone": "78",
             "adresse": "Castor",
             "dettes": []
         }
     ],
-    "dettes": [],
     "articles": [
         {
             "id": 1,
@@ -34,20 +68,6 @@
             "libelle": "Ordinateur portable",
             "quantite_stock": 10,
             "prix": 500000
-        },
-        {
-            "id": 2,
-            "reference": "A002",
-            "libelle": "Casque Bluetooth",
-            "quantite_stock": 15,
-            "prix": 25000
-        },
-        {
-            "id": 3,
-            "reference": "A003",
-            "libelle": "Clavier m\u00e9canique",
-            "quantite_stock": 20,
-            "prix": 45000
         }
     ]
 }
